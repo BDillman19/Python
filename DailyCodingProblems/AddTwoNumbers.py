@@ -12,7 +12,7 @@ class ListNode:
 class Solution:
  	def addTwoNumbers(l1, l2):
 	 	dummy = ListNode(0)
-	 	current, carry = dummy, 0
+		current, carry = dummy, 0
 	 	while l1 or l2:
 	 		val = carry
 	 		if l1:
